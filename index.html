@@ -1,0 +1,305 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cachorros en adopción </title>
+<link rel="stylesheet" href="index.css" media="all" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- le cambie el nombre del blog a la pagina  -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b> CACHORROS EN ADOPCION </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">patitas empolvadas</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="http://3.bp.blogspot.com/-4fZ1pqkpsGc/UUFTVo_SZeI/AAAAAAAAA6w/3vFyEo7Ji30/s1600/5.jpg" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Y</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Patitas empolvadas </b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- cambie la imagen y el subtutulo -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Variedades de cahorros </h3>
+          <h5> Con que raza de idenficas 
+              
+          </h5>
+        </div>
+         <!--raalize algunos cambios los cuales van dirigido a una pagina wed de adocion de cachorros
+        cambien la imagen y el parrafo dando a conecer un poco de que se trata la pagina y la fundacion-->
+        <div class="w3-justify">
+          <img src="https://3.bp.blogspot.com/_CDohqq_XG4g/SwUq7-0M8cI/AAAAAAAAFUc/PqHF1pxksrc/s1600/fondos-cachorros-perros.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> Patitas empolvadas </strong> es una fundacion donde damos en adopción a nuestros cachoros, los cuales buscamos un perfil adecuado y que cumpla con los requisitos minimos y para que pueda brindarle un buen hogar.
+
+            nuestros cachorros no tienen precios, la fundacion simplemente busca el bienestar de los cachorros y que pedan tener un buen hogar y un buen dueño por eso nustro sitema es bastabte riqurozo por que nos importa el bienestar de nuestros cahorros".
+            
+            Lo que significa que si no cumples con los requisitos no podras adoptar uno de nuestros cachorros..</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.-JWbEJ0oPugTvGNB1acPRQHaIb&pid=Api&P=0" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Freya <span class="w3-opacity w3-medium">May 5, 2023, 10:32 PM</span></h4>
+                <p> estoy interesado en adoptar un cachorro que tengo que hacer. </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Centra veterinario DOG</h3>
+          <h5> convenios con patitas empolvadas <span class="w3-opacity"></span></h5>
+        </div>
+       <!-- aqui enfocamos los cambios en asignas una nueva imagen y colocar convenios con centros 
+      veterinarios para nuestros cachorros y asi nuestros clientes tengan claro las asistencias mediacas que tiene la empresa-->
+        <div class="w3-justify">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.Soao4gOJiiYvgadBAWq3XAHaE8&pid=Api&P=0" alt="Runway" style="width:90%" class="w3-padding-16">
+          <p><strong>centro veterinario DOG</strong></p>
+          <p>Patitas empolvadas cuenta con covenios con varios centros veterinarios especializados, donde llevamos anuestros cachoros a un chequeo mensual. 
+            donde descartamos cualquier tipo de enfermedades que puedan adquiris nuestros cachorros y estar al dia con las vacunaciones para asi priorisar la salud de nuestros cachorros y que nuestros clientes esten satisfechos y seguros que se llevan un cachorro sano y en 
+            optimas condiciones y se lleven esa cultura de llevar a sus cachorros a un chequeo mensual cuando se les de en adopcion.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.vGvQXDpzPBC_wmEYWLTrDQHaEv&pid=Api&P=0" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Carlos torres <span class="w3-opacity w3-medium">Mayo 20, 2023, 11:22 PM</span></h4>
+                <p>Que buen proyecto estoy interezado .</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.ftr-TC5lMsniafX5RqQWhQHaEo&pid=Api&P=0" style="width:80px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>isabella mendez <span class="w3-opacity w3-medium">mayo 10, 2023, 11:32 PM</span></h4>
+                <p>hay algun numero de contacto donde me pueda comunicar.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.UaBhO-PyjmDk84eD5r3DqAHaHa&pid=Api&P=0" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>isabel mena <span class="w3-opacity w3-medium">agoston 7, 2023, 9:12 PM</span></h4>
+                <p>los felicito por su labor que buen proyecto tienen</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-purple">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.Br8s5dWhGWDKkWH7KdECBQAAAA&pid=Api&P=0" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>fundacion patitas empolvadas</h4>
+          <p>En pro de un mejor futuro de nuestros cachorros</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-purple">
+          <h4>Fundaciones similares</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="https://pbs.twimg.com/profile_images/378800000488107612/2bb3e82b18c8f3dcc1f7372656e99548.jpeg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Fundacion perritos</span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.G9lg2fhWXGGI9hxnrE5oEAAAAA&pid=Api&P=0" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Fundacion gunar</span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.RWnMl1xEDPHfmVPulhxbUAHaGY&pid=Api&P=0" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Fundacion once de perros gia</span>
+            <br>
+          </li>
+          <li class="w3-padding-16">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.NeZTnxeTO7o9KQeYgF-epwHaHa&pid=Api&P=0" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Huellitas desamparadas</span>
+            <br>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-purple">
+          <h4>razas</h4>
+        </div>
+        <div class="w3-container w3-gray">
+          <p>
+            <span class="w3-tag w3-ling-grey w3-margin-bottom">buldog frances</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">pekines</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">terri brasileño</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">labrador</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">crestado chino</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">volpino italiano</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">pitbull</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">carlino</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">papillon</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Paranormal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">terri yoschire</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"> bichón maltés <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-purple">
+        <div class="w3-container w3-padding w3-purple">
+          <h4>algunos de nuestros cachorros</h4>
+        </div>
+        <div class="w3-row-padding w3-purple">
+          <div class="w3-col s6">
+            <p><img src="https://tse1.mm.bing.net/th?id=OIP.sSVkJBpp65uvbj9yp3yO5gAAAA&pid=Api&P=0" alt="Jeans" style="width:100%"></p>
+            <p><img src="https://tse1.mm.bing.net/th?id=OIP.B7OsUhDvRl1irGHc3cM54AHaFj&pid=Api&P=0" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="https://www.dailybreak.co/wp-content/uploads/2019/10/5-21.jpg" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="https://tse1.mm.bing.net/th?id=OIP.otwzC0Qz4C-vip3uGb9FGQHaFB&pid=Api&P=0" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-purple">
+        <div class="w3-container w3-padding w3-purple">
+          <h4>para mayor informacion les dejamos nuestras redes sociales</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-purple">
+        <div class="w3-container w3-padding w3-purple">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-purple">
+          <p>ingresa con un correo electronico.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
